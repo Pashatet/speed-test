@@ -1,0 +1,11 @@
+# Активировать виртуальное окружение на Linux
+source .venv/bin/activate
+
+# Активировать виртуальное окружение на Windows
+.\.venv\Scripts\Activate.ps1
+
+# Установить зависимость (один раз для этого окружения)
+python -m pip install requests
+
+# Запустить скрипт
+python speed_test.py "https://example.com/large-image.jpg"
