@@ -8,4 +8,4 @@ source .venv/bin/activate
 python -m pip install requests
 
 # Запустить скрипт
-python speed_test.py "https://example.com/large-image.jpg"
+python speed_test.py "https://bfoto.ru/oboi/oboi_priroda_1920x1200.jpg"
